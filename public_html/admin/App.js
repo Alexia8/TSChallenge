@@ -1,6 +1,6 @@
 /*eslint-env jquery*/
 /*@author alexiacdura
- * Start of App.ﬁ
+ * Start of App
  * Initializes model, view and controller
  * 
  * The app follows a MVC pattern
