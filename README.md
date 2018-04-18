@@ -28,7 +28,7 @@ Jquery helps writing less and clean code for interacting with elemens in the htm
 native JavaScipt has been used simulating an OOP way of coding. 
 
 ERROR CASES/Possible Unit tests -> 
--Make sure the user only inputs numbers
+-Make sure the user only inputs numbers (if he inputs something that is not number it will read it is empty)
 -Make sure the user inputs all three fields
 -Clean args by restarting game
 -If the user inputs , or . both are validated
