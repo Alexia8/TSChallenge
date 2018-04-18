@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+    <head>
+        <title>TS Challenge</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,400' rel='stylesheet' type='text/css'>
+        <link href="css/animate.css" rel="stylesheet" type="text/css"/>
+        <link href="css/main.css" rel="stylesheet" type="text/css"/>
+        <script src="admin/jquery-1.11.3.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Trad<span class='rotateIn'>e</span>Shift Chall<span class='rotateIn'>e</span>ng<span class='rotateIn'>e</span></h1>
+            <h2>Frontend developer</h2>
+        </header>
+        <main>
+            <section id='intro' class='column col_1 slideInRight'>
+                <h3>What type of triangle is it?</h3>
+            </section>
+            <div class="js-container wrapper">
+                <section id='form' class='column col_1 zoomIn'>
+                    <p>Insert a length for each side to generate a triangle and know it's type.</p>
+                    <div class="column col_3">
+                        <h4>Side one</h4>
+                        <input type="number" placeholder="length one" class="js-side1-input">
+                    </div>
+                    <div class="column col_3">
+                        <h4>Side two</h4>
+                        <input type="number" placeholder="length two" class="js-side2-input">
+                    </div>
+                    <div class="column col_3">
+                        <h4>Side three</h4>
+                        <input type="number" placeholder="length three" class="js-side3-input">
+                    </div>
+
+                    <input type="button" class="js-generate-triangle-button btn" value="Generate">
+
+                    <div id="empty" class="js-empty-container wrapper shake"></div>
+                </section>
+                <section id='triangle' class='column col_1 wrapper'>
+                    <h4 class='js-title-container'></h4>
+                    <p class='js-p-container'></p>
+                    <div class="js-triangle-container wrapper"></div>
+                    <input id='js-restart-btn' type="button" class="btn" value="Restart">
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div>By<br>Alexia C. Durá&copy;</div>
+        </footer>
+        <script src="admin/Event/EventDispatcher.js"></script>
+        <script src="admin/Event/ClickEvents.js"></script>
+        <script src="admin/Model/TriangleModel.js"></script>
+        <script src="admin/View/TriangleView.js"></script>
+        <script src="admin/Controller/TriangleController.js"></script>
+        <script src="admin/App.js"></script>
+    </body>
+
+</html>
