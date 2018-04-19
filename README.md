@@ -34,7 +34,7 @@ ERROR CASES/Possible Unit tests ->
 -If the user inputs , or . both are validated
 
 DOCUMENTATION -> 
-Complete documnetation has been provided in the code the help understand how the architecture works and readable code has been provided by using logic naming for classes, variables and functions.
+Complete documentation has been provided in the code the help understand how the architecture works and readable code has been provided by using logic naming for classes, variables and functions.
 
 
 
