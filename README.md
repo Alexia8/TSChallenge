@@ -18,7 +18,7 @@ An MVC design pattern has been followed for this challenge to simulate a purpose
 MVC help keep the project maintainable and scailable keeping the logic separated from the view making the project also very testable. 
 The project has been treated as if it were a learning game for children that in the future could contain different learning challenges.
 
-The model fot this challenge represents the Traingle object providing the neccesary data to be manipulated.
+The model for this challenge represents the Traingle object providing the neccesary data to be manipulated.
 The View represent the components in the html file and interacts with it providing the user with a result.
 The Controller interacts with this two classes providing a clean structure to create events that will be executed in the model/view. 
 
