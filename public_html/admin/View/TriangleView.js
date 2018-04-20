@@ -1,6 +1,6 @@
 /*
  * @author alexiacdura
- * eslint-env jqueryﬁﬁ
+ * eslint-env jquery
  
  * View Class that will update the view when there is data in the model and events have been dispatched
  * This class represents components to be drawn or accesed in the HTML
@@ -46,7 +46,7 @@ TriangleView.prototype = {
         this.$titleContainer = this.$container.find('.js-title-container');
         this.$pContainer = this.$container.find('.js-p-container');
 
-        //accesed this way to be able to use the style property of the element and change itﬁ
+        //accesed this way to be able to use the style property of the element and change it
         this.form = document.getElementById("form");
         this.triangle = document.getElementById("triangle");
 
