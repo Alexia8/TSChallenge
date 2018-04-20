@@ -1,6 +1,6 @@
 /*
  * @author alexiacdura
- * eslint-env jqueryﬁﬁ
+ * eslint-env jquery
  
  * Controller class that sends input from user to the model class
  * Interacts with the view once triangle has been generated
