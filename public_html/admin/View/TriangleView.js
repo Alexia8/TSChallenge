@@ -180,7 +180,7 @@ TriangleView.prototype = {
         this.$side3Input.val('');
     },
 
-    //call to the Model constructor once clearedﬁ
+    //call to the Model constructor once cleared
     generateTriangle: function () {
         this.show();
     }
