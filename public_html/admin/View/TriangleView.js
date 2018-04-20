@@ -54,7 +54,7 @@ TriangleView.prototype = {
     },
 
     /*
-     *Return function that whill create the handler and execute 
+     *Return function that will create the handler and execute 
      *@return {View}
      */
     setupHandlers: function () {
@@ -71,7 +71,7 @@ TriangleView.prototype = {
     },
 
     /*
-     *Return function that whill abilitate onClick event for the button
+     *Return function that will abilitate onClick event for the button
      *@return {View}
      */
     enable: function () {
