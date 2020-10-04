@@ -6,7 +6,7 @@ Web application with Javascript that tells you if a triangle is Equilateral, Isc
 The purpose of this acrhitecture is to simulate a bigger and more complex system if it had to scail with JavaScript as a requirement for the challenge.
 
 DESIGN/UI -> 
-The Design structure that has been implemented is very simple and clean. 
+The Design structure that has been implemented is very intuitive and clean. 
 The animated.css class is being used to faciliate with the animations and give a feel of interaction and movement to the user as if it were a game.
 It provides the user with 3 inputs and a button to execute the program. 
 Once the user has played he is provided a button to restart ('play again'). 
@@ -35,6 +35,8 @@ ERROR CASES/Possible Unit tests ->
 
 DOCUMENTATION -> 
 Complete documentation has been provided in the code the help understand how the architecture works and readable code has been provided by using logic naming for classes, variables and functions.
+
+Please view "index.html" to see Web & Design
 
 
 
